@@ -27,7 +27,7 @@ spec:
                 - asia-northeast3-c
       containers:
       - name: redis-topology
-        image: redis:7.0.5
+        image: {{ .Values.redis_img }}
         ports:
         - containerPort: 6379
           hostPort: 6379

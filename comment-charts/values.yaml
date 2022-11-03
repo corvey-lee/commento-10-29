@@ -1,1 +1,2 @@
-image: asia-northeast3-docker.pkg.dev/k8s-project-365610/gar/comment:latest
+golang_img: asia-northeast3-docker.pkg.dev/k8s-project-365610/gar/comment:latest
+redis_img: asia-northeast3-docker.pkg.dev/k8s-project-365610/gar/redis-cluster:latest

@@ -14,4 +14,4 @@ spec:
             - gke-cluster-1-default-pool-1da65713-b3xj
   containers:
   - name: myaffinity
-    image: {{ .Values.image }}
+    image: {{ .Values.golang_img }}
